@@ -1,0 +1,539 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+    font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+.header-section{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light{
+	background: transparent !important;
+}
+
+.header-section .navbar-brand img {
+    width: 100px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link.active{
+	color: #511de5;
+    background: url("../images/hr.png") center bottom no-repeat;
+    background-size: contain;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 0px 15px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+    background: url("../images/hr.png") center bottom no-repeat;
+    background-size: contain;
+}
+
+.header-section .btn-info {
+    padding: 8px 35px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 35px;
+    background: linear-gradient(to right, #511de5, #0c8cfb);
+    margin-left: 10px;
+}
+
+.header-section .btn-info:hover, .header-section .btn-info:focus{
+	 color: #fff;
+	 background: linear-gradient(to right, #0c8cfb, #511de5);
+}
+
+.banner{
+	width: 100%;
+	padding: 150px 0px;
+}
+
+.inner-banner{
+	width: 100%;
+	padding: 100px 0px;
+	text-align: right;
+}
+
+.inner-banner h1 {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 62px;
+}
+.inner-banner h1 span{
+    color:#511de5; 
+}
+
+.inner-banner .btn-primary{
+    padding: 8px 35px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    background:  #f2f2f2;
+    margin-top: 25px;
+    border: 1px solid #f2f2f2;
+    border-radius: 35px;
+}
+
+.inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+	 color: #fff;
+	 background: #511de5;
+}
+
+.highlight{
+	width: 100%;
+	background: url("../images/highbg.png") center top no-repeat;
+	background-size: cover;
+	padding: 40px 0px;
+}
+
+.inner-high{
+	width: 100%;
+	position: relative;
+}
+
+.inner-high img {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 250px;
+}
+.inner-high h2{
+	color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+.feature{
+	width: 100%;
+	padding: 80px 125px;
+}
+
+.feature .inner-feature{
+	width: 100%;
+	padding: 80px;
+	background: url("../images/featurebg.png") center bottom no-repeat;
+	background-size: cover;
+	box-shadow: 1px 4px 10px #ccc;
+}
+
+.feature .inner-feature h2 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.feature .inner-feature p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000;
+}
+.inner-pro{
+	margin-bottom: 66px;
+}
+.feature .inner-feature .inner-pro p .percent {
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 169px;
+    background: linear-gradient(to right, #511de5, #0c8cfb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.feature .inner-feature .inner-pro p .pro{
+    margin-left: 12px;
+}
+
+.feature .clients{
+	width: 100%;
+	padding: 90px 52px 0px;
+	text-align: center;
+}
+
+.intro-quote{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/rang.png") center top no-repeat;
+	background-size: cover;
+}
+
+.inner-intro {
+    width: 77%;
+    padding: 91px 0px;
+    background: url(../images/quote.png) center top no-repeat;
+    background-size: cover;
+    margin-top: 120px;
+    margin-left: 171px;
+}
+
+.inner-intro p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 120px;
+}
+
+.inner-intro h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 120px;
+}
+
+.inner-quote{
+	width: 100%;
+	padding: 190px 90px;
+}
+
+.inner-quote h1 {
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.inner-quote .btn-primary{
+    padding: 8px 35px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    background:  #f2f2f2;
+    margin-top: 25px;
+    border: 1px solid #f2f2f2;
+    border-radius: 35px;
+}
+
+.inner-quote .btn-primary:hover, .inner-quote .btn-primary:focus{
+	 color: #fff;
+	 background: #511de5;
+}
+
+.happiness{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-happiness{
+	width: 100%;
+	padding: 30px;
+}
+.happiness .inner-happiness{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.happiness .inner-happiness h1{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.happiness .inner-happiness p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #000;
+}
+
+.happiness .inner-happiness .list-happy {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 52px;
+    margin-top: 35px;
+}
+
+.happiness .inner-happiness .list-happy img{
+	margin-right: 25px;
+}
+
+.inner-happy{
+	width: 100%;
+	position: relative;
+}
+.happ {
+    position: absolute;
+    left: -115px;
+    top: -35px;
+    box-shadow: 39px 25px 10px #F2F2FE;
+}
+.happy-btn .btn-primary{
+    padding: 8px 35px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    background:  #f2f2f2;
+    margin-top: 40px;
+    border: 1px solid #f2f2f2;
+    border-radius: 35px;
+}
+
+.happy-btn .btn-primary:hover, .happy-btn .btn-primary:focus{
+	 color: #fff;
+	 background: #511de5;
+}
+
+.designf{
+	width: 100%;
+	padding: 80px 0px;
+	background: #fcfcfc;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+.designf .inner-design{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+}
+
+.designf .inner-design h1{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.designf .inner-design p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #000;
+}
+
+.designf .inner-df{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.designf .inner-df h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 28px;
+    color: #000;
+}
+
+.designf .inner-df p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #000;
+}
+
+.inspration{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inspration .main-head{
+    width: 100%;
+    border: 1px solid #eee;
+    text-align: center;
+    background: url("../images/forma1.png") center top no-repeat ;
+    background-size: cover;
+}
+.top-head {
+    width: 100%;
+}
+.top-head p {
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid #eee;
+    padding: 80px 0px;
+    color: #999;
+}
+.content {
+    width: 100%;
+    padding: 20px 0px;
+}
+.content img{
+    opacity: 0.5;
+}
+.content h4 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #999;
+}
+.content p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #999 !important;
+}
+.main-head:hover{
+    box-shadow: 5px 10px 8px #888888;
+}
+.main-head:hover .content img{
+    opacity: 1;
+}
+.main-head:hover .top-head p{
+     background: linear-gradient(to right, #511de5, #0c8bfb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.main-head:hover .content h4 , .content p{
+    color: #000 !important;
+}
+
+.footer{
+	width: 100%;
+	margin-top: 110px;
+	padding: 80px 0px;
+	background: url("../images/footer.png") center bottom no-repeat;
+	background-size: cover;
+}
+
+.faq{
+	width: 100%;
+	padding: 80px 0px;
+}
+.footer .inner-footer{
+	width: 100%;
+	padding: 80px;
+	background: #fff;
+	border: 1px solid #eee;
+	box-shadow: 1px 4px 10px #ccc;
+}
+
+.inner-footer h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+/***********
+      **For Mobile Divice**
+************/
+
+@media (min-width:320px ) and (max-width:480px ){
+	/************Code Start*************/
+
+   .header-section .navbar-light .navbar-nav .nav-link.active{
+		color: #511de5;
+	    background: url("../images/hr.png")  bottom left no-repeat;
+	    background-size: auto;
+	}
+
+	.header-section .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+		color: #511de5;
+	    background: url("../images/hr.png") bottom left no-repeat;
+	    background-size: auto;
+	}
+
+	.banner {
+	    width: 100%;
+	    padding: 80px 0px;
+	}
+
+    .inner-banner h1 {
+	    font-size: 30px;
+	    font-weight: 800;
+	    line-height: 38px;
+	}
+
+	.highlight {
+	    width: 100%;
+	    background: url(../images/highbg.png) center top no-repeat;
+	    background-size: cover;
+	    padding: 20px 0px;
+	}
+
+	.inner-high img {
+	    position: absolute;
+	    top: -36px;
+	    left: 8px;
+	    width: 80px;
+	}
+	.inner-high h2 {
+	    color: #fff;
+	    font-size: 14px;
+	    font-weight: 700;
+	    line-height: 24px;
+	    text-align: center;
+	}
+
+
+
+	/************Code End*************/
+}
+
+/***********
+      **For Tablet Divice**
+************/
+
+@media (min-width:481 ) and (max-width:767px ){
+    /************Code Start*************/
+
+	.header-section .navbar-light .navbar-nav .nav-link.active {
+	    color: #511de5;
+	    background: url(../images/hr.png) bottom left no-repeat;
+	    background-size: auto;
+	}
+
+	.header-section .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+		color: #511de5;
+	    background: url("../images/hr.png") bottom left no-repeat;
+	    background-size: auto;
+	}
+
+	.banner {
+	    width: 100%;
+	    padding: 80px 0px;
+	}
+
+	.inner-banner h1 {
+	    font-size: 32px;
+	    font-weight: 800;
+	    line-height: 38px;
+	}
+
+
+	
+	/************Code End*************/
+}
+
+/***********
+      **For Notebook Divice**
+************/
+
+@media (min-width:768px ) and (max-width:1024px ){
+	/************Code Start*************/
+
+
+
+	
+	/************Code End*************/
+}
