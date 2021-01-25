@@ -406,24 +406,23 @@ a,a:hover{
     color: #000 !important;
 }
 
-.footer{
-	width: 100%;
-	margin-top: 110px;
-	padding: 80px 0px;
-	background: url("../images/footer.png") center bottom no-repeat;
-	background-size: cover;
+.footer {
+    width: 100%;
+    padding: 0px 0px 75px;
+    background: url(../images/footer.png) center bottom no-repeat;
+    background-size: cover;
 }
-
 .faq{
 	width: 100%;
 	padding: 80px 0px;
 }
-.footer .inner-footer{
-	width: 100%;
-	padding: 80px;
-	background: #fff;
-	border: 1px solid #eee;
-	box-shadow: 1px 4px 10px #ccc;
+.footer .inner-footer {
+    width: 90%;
+    padding: 80px;
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: 1px 4px 10px #ccc;
+    margin: 0 auto;
 }
 
 .inner-footer h1 {
